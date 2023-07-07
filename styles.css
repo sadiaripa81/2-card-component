@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #0d1a2d;
+}
+.first_div {
+    margin: 0;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #0c192c;
+}
+.second_div {
+    margin: 0;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #0c1729;
+}
+.main_div {
+    margin: 0;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #15273f;
+}
+.img_main {
+    margin: 0;
+    width: 100%;
+    border-radius: 15px;
+}
+.title {
+    font-size: 20px;
+    text-align: left;
+    font-family: outfit;
+    color: hsl(0, 0%, 100%);
+}
+.title:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.subtitle {
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+}
+.middle_div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.icon-ethereum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+.ETH {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+.days_left {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.clock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+.divider {
+    opacity: 40%;
+    border: .25px solid hsl(215, 51%, 70%);
+}
+.last_div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    gap: 7px
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.creation {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15px;
+}
+.font_spans {
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    font-size: 15px;
+}
+.font_spans:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
